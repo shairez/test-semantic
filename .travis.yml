@@ -9,8 +9,6 @@ notifications:
   email: false
 node_js:
   - '9'
-addons:
-  chrome: stable
 before_install:
 install:
   - yarn
