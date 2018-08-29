@@ -1,7 +1,7 @@
 {
   "debug": true,
-  "branch": "master",
-  "tagFormat": "framework6_${version}",
+  "branch": "master-framework7",
+  "tagFormat": "framework7_${version}",
   "repositoryUrl": "git@github.com:shairez/test-semantic.git",
   "verifyConditions": [
     "@semantic-release/changelog",
