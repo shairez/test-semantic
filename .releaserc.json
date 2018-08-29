@@ -1,0 +1,16 @@
+{
+  "debug": true,
+  "branch": "master",
+  "tagFormat": "framework6_${version}",
+  "repositoryUrl": "git+ssh://git@github.com/shairez/test-semantic.git",
+  "verifyConditions": [
+    "@semantic-release/changelog",
+    "@semantic-release/git",
+    "@semantic-release/github"
+  ],
+  "prepare": [
+    "@semantic-release/changelog",
+    "@semantic-release/git"
+  ],
+  "publish": ["@semantic-release/github"]
+}
