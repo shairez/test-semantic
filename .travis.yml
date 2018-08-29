@@ -16,7 +16,7 @@ install:
   - yarn
 script:
 after_success:
-  - yarn run travis-deploy-once "yarn run release"
+  - yarn run travis-deploy-once "npm run release"
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/

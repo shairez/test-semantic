@@ -11,7 +11,8 @@
     "test": "dir",
     "commit": "git-cz",
     "lint:commitmsg": "commitlint -E HUSKY_GIT_PARAMS",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "husky": {
     "hooks": {
@@ -36,6 +37,7 @@
     "prettier": "1.14.2",
     "pretty-quick": "1.6.0",
     "semantic-release": "15.9.12",
+    "travis-deploy-once": "5.0.4",
     "typescript": "3.0.1"
   }
 }
